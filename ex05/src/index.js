@@ -1,0 +1,26 @@
+var myPetsArray = [
+    {
+        animalType: "Dog",
+        name: "Pujdo",
+    },
+    {
+        animalType: "Cat",
+        name: "Maca"
+    },
+    {
+        animalType: "Bird",
+        name: "Tweety",
+    },
+];
+
+
+function myPetsFunction(pets) {
+
+
+    pets = myPetsArray[1].name;
+    return pets;
+}
+
+console.log(myPetsFunction());
+module.exports = myPetsFunction;
+module.exports.myPets = myPetsArray; 
